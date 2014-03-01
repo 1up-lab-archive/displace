@@ -19,6 +19,6 @@
     },
 
     "autoload": {
-        "psr-0": { "Oneup": "src" }
+        "psr-4": { "Oneup\\Displace\\": "src" }
     }
 }
