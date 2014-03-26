@@ -1,6 +1,6 @@
 <?php
 
-use Oneup\Displace\Storage\Adapter\Filesystem\FilesystemAdapter;
+use Oneup\Displace\Storage\Adapter\FilesystemAdapter;
 
 class FilesystemAdapterTest extends \PHPUnit_Framework_TestCase
 {
