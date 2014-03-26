@@ -1,8 +1,8 @@
 <?php
 
-namespace Oneup\Displace\Namer;
+namespace Oneup\Displace;
 
-use Oneup\Displace\File\FileInterface;
+use Oneup\Displace\FileInterface;
 
 interface NamerInterface
 {
