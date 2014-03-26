@@ -1,6 +1,6 @@
 <?php
 
-namespace Oneup\Displace\Storage\Adapter\Filesystem;
+namespace Oneup\Displace\Storage\Adapter;
 
 use Oneup\Displace\Storage\AdapterInterface;
 
