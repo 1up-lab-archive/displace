@@ -9,4 +9,6 @@ interface FileInterface
     public function getPath();
     public function getBasename();
     public function getMimeType();
+
+    public function move($path, $name);
 }
