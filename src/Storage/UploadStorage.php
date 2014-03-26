@@ -3,7 +3,7 @@
 namespace Oneup\Displace\Storage;
 
 use Oneup\Displace\FileInterface;
-use Oneup\Displace\Storage\StorageInterface;
+use Oneup\Displace\StorageInterface;
 
 class UploadStorage implements StorageInterface
 {

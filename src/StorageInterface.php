@@ -1,6 +1,6 @@
 <?php
 
-namespace Oneup\Displace\Storage;
+namespace Oneup\Displace;
 
 interface StorageInterface
 {
