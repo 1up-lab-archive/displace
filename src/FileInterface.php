@@ -1,6 +1,6 @@
 <?php
 
-namespace Oneup\Displace\File;
+namespace Oneup\Displace;
 
 interface FileInterface
 {
