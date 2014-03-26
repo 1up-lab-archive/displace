@@ -36,7 +36,14 @@ interface FileInterface
     /**
      * Return the mime type of this file.
      *
-     * @return mixed
+     * @return string
      */
     public function getMimeType();
+
+    /**
+     * Return the extension of the file.
+     *
+     * @return string
+     */
+    public function getExtension();
 }
