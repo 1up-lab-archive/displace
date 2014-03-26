@@ -2,7 +2,7 @@
 
 namespace Oneup\Displace\Storage\Adapter\Filesystem;
 
-use Oneup\Displace\Storage\Adapter\AdapterInterface;
+use Oneup\Displace\Storage\AdapterInterface;
 
 class FilesystemAdapter implements AdapterInterface
 {
