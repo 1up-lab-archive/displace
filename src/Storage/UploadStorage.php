@@ -14,7 +14,7 @@ class UploadStorage implements StorageInterface
         $this->adapter = $adapter;
     }
 
-    public function upload(FileInterface $file, $key)
+    public function move(FileInterface $file, $path)
     {
 
     }

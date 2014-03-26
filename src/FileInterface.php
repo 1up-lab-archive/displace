@@ -4,11 +4,39 @@ namespace Oneup\Displace;
 
 interface FileInterface
 {
+    /**
+     * Return the size of this file in bytes.
+     *
+     * @return integer
+     */
     public function getSize();
-    public function getPathname();
-    public function getPath();
-    public function getBasename();
-    public function getMimeType();
 
-    public function move($path, $name);
+    /**
+     * Return the absolute path including this
+     * files name.
+     *
+     * @return string
+     */
+    public function getPathname();
+
+    /**
+     * Return the path part of this files location.
+     *
+     * @return string
+     */
+    public function getPath();
+
+    /**
+     * Return the name part of this files location.
+     *
+     * @return string
+     */
+    public function getBasename();
+
+    /**
+     * Return the mime type of this file.
+     *
+     * @return mixed
+     */
+    public function getMimeType();
 }
